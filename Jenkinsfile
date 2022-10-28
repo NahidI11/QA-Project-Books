@@ -8,22 +8,22 @@ node {
     
     stage('Clean up') {
         
-        sh "bash sudo cleanup.sh"
+        sh "bash cleanup.sh"
         
     }
     
     stage('Setup docker') {
 
-         sh "bash sudo setup.sh"
+         sh "bash setup.sh"
     }
 
     stage('Build image') {
         
-         sh "bash sudo build.sh"
+         sh "bash build.sh"
     }  
 
     stage('Run container') {
         
-        sh "bash sudo run.sh"
+        sh "bash run.sh"
     }
 }
