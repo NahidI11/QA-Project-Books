@@ -2,7 +2,7 @@
 
 echo "build app..."
 
-cd /home/jenkins/.jenkins/workspace/qa-project
+cd /home/jenkins/.jenkins/workspace/qa-books
 
 sudo chown "$USER":"$USER" /var/run/docker.sock -R
 sudo chmod g+rwx "/var/run/docker.sock" -R
