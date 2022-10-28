@@ -2,4 +2,4 @@
 
 cd /home/jenkins/.jenkins/workspace/qa-books
 
-sudo docker stop myapp; sudo docker rm myapp; sudo docker rmi myapp
+docker stop myapp; docker rm myapp; docker rmi myapp
