@@ -2,16 +2,16 @@
 
 cd /home/jenkins/.jenkins/workspace/qa-books
 
-imageName = "myapp"
-  env.imageName = "${imageName}"
+image = "myapp"
+  env.image = "${image}"
 
-  echo "Image Name: " + "${imageName}"
+  echo "Image Name: " + "${image}"
 
-  if imageName = != '' ) {
-      echo "Deleting image id: $imageName..."
-      sh "sudo docker stop $imageName"
-      sh "sudo docker rm $imageName"
-      sh "sudo docker rmi -f $imageName"
+  if image = != '' ) {
+      echo "Deleting image id: $image..."
+      sh "sudo docker stop $image"
+      sh "sudo docker rm $image"
+      sh "sudo docker rmi -f $image"
         } else {
           echo "No image to delete..."
             }
