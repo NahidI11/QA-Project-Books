@@ -1,18 +1,11 @@
 #!/bin/bash
 
-cd /home/jenkins/.jenkins/workspace/qa-books
+CONTAINER=$1
+ 
+RUNNING=$(docker inspect --format="{{ .State.Running }}" $CONTAINER 2> /dev/null)
 
-image = "myapp"
-  env.image = "${image}"
-
-  echo "Image Name: " + "${image}"
-
-  if image = != '' ) {
-      echo "Deleting image id: $image..."
-      sh "sudo docker stop $image"
-      sh "sudo docker rm $image"
-      sh "sudo docker rmi -f $image"
-        } else {
-          echo "No image to delete..."
-            }
-        }
+if [ $? -eq 1 ]; then
+  echo "'$CONTAINER' does not exist."
+else
+  /usr/bin/docker rm --force $CONTAINER
+fi
