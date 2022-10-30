@@ -95,6 +95,12 @@ The design of the app is showcased below:
 ![Webpic2](https://user-images.githubusercontent.com/111808023/198728645-4cb0a63b-d70b-45b6-b2aa-c11fbc22c0b8.png)
 
 
+## Video Walkthrough
+
+Here is a link to the video walkthrough
+
+NahidI11_QA-Project-Books - Google Chrome 2022-10-30 22-34-18.mp4
+
 
 
 
