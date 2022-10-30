@@ -99,7 +99,7 @@ The design of the app is showcased below:
 
 Here is a link to the video walkthrough
 
-NahidI11_QA-Project-Books - Google Chrome 2022-10-30 22-34-18.mp4
+[NahidI11_QA-Project-Books - Google Chrome 2022-10-30 22-34-18.mp4](https://drive.google.com/file/d/1Ck_p-OOXk1_LCyqXvjD2U_rIybY7mDeC/view?usp=share_link)
 
 
 
