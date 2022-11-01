@@ -16,6 +16,9 @@
 
 • Design
 
+• Video Walkthrough
+
+
 
 ## Brief
 
